@@ -1,0 +1,30 @@
+{
+  "name": "software-engineer-intern-back-end---task-assessment",
+  "version": "1.0.0",
+  "description": "Form Validation using Node.js, Express and @hapi/joi",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinishaJ/Software-Engineer-Intern-Back-End---Task-Assessment.git"
+  },
+  "keywords": [
+    "form",
+    "validation",
+    "node",
+    "express",
+    "@hapi/joi",
+    "joi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BinishaJ/Software-Engineer-Intern-Back-End---Task-Assessment/issues"
+  },
+  "homepage": "https://github.com/BinishaJ/Software-Engineer-Intern-Back-End---Task-Assessment#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
